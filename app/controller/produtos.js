@@ -28,6 +28,7 @@ module.exports = function(app){
                 },
                 json: function() {
                     res.json(results);
+                    //res.status(201).json(results);
                 }
             });
         });
